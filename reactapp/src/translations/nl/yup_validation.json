@@ -1,0 +1,9 @@
+{
+  "email_required": "E-mail is verplicht",
+  "password_required": "Wachtwoord is verplicht",
+  "password_validation": "Het wachtwoord moet minimaal 8 tekens lang zijn en ten minste één hoofdletter, één kleine letter, één cijfer en één speciaal teken bevatten.",
+  "password_validation_min": "Wachtwoord moet minimaal 8 tekens bevatten",
+  "password_validation_max": "Wachtwoord mag maximaal 100 tekens bevatten",
+  "passwords_must_match": "Wachtwoorden moeten overeenkomen",
+  "email_invalid": "E-mail is ongeldig"
+}

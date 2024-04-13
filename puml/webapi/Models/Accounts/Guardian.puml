@@ -1,0 +1,6 @@
+@startuml
+class Guardian {
+}
+HumanBase <|-- Guardian
+Guardian --> "UserType" UserTypes
+@enduml

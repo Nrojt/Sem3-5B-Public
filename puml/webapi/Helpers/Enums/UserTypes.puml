@@ -1,0 +1,9 @@
+@startuml
+enum UserTypes {
+    DisabilityExpert,
+    Guardian,
+    Company,
+    Employee,
+    Admin,
+}
+@enduml

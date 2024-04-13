@@ -1,0 +1,15 @@
+@startuml
+class Company {
+    + CompanyName : string <<get>> <<set>>
+    + CompanyDescription : string <<get>> <<set>>
+    + CompanyAddress : string <<get>> <<set>>
+    + CompanyCity : string <<get>> <<set>>
+    + CompanyCountry : string <<get>> <<set>>
+    + CompanyPostalCode : string <<get>> <<set>>
+    + CompanyPhoneNumber : string <<get>> <<set>>
+    + CompanyWebsite : string <<get>> <<set>>
+    + ApiKey : string? <<get>> <<set>>
+}
+UserBase <|-- Company
+Company --> "UserType" UserTypes
+@enduml

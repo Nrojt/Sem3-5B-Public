@@ -1,2 +1,8 @@
-# Sem3-5B-Public
- Public archive of the Sem3-5B project
+# Sem3-5B
+Stichting Accessibility
+
+Made by:
+- @Raoul-N 
+- @NoahSt0lk
+- @Nrojt
+

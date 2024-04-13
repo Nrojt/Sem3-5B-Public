@@ -1,0 +1,40 @@
+.chat-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.chat-col {
+  height: 100%;
+}
+
+.chat-title {
+  margin-bottom: 20px;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.sent-message {
+  background-color: aqua;
+}
+
+.received-message {
+  background-color: red;
+}
+
+.message-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-input {
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}

@@ -1,0 +1,15 @@
+{
+  "information": "Information",
+  "goal": "Goal",
+  "apply": "Apply",
+  "by_company": "Research by: ",
+  "date": "Date: ",
+  "location": "Location: ",
+  "reward": "Reward: ",
+  "type": "Research type: ",
+  "loading": "Loading...",
+  "confirmation": "Confirmation",
+  "close": "Close",
+  "succesMessage": "You have succesfully applied to this research!",
+  "errorMessage": "You have already applied to this research!"
+}

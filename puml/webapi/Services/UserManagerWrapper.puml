@@ -1,0 +1,9 @@
+@startuml
+class "UserManagerWrapper`1"<T> {
+    + UserManagerWrapper(userManager:UserManager<T>)
+    + <<async>> FindByEmailAsync(email:string) : Task<UserBase?>
+    + <<async>> CheckPasswordAsync(user:UserBase, password:string) : Task<bool>
+    + <<async>> UpdateAsync(user:UserBase?) : Task
+}
+IUserManagerWrapper <|-- "UserManagerWrapper`1"
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+class Disability {
+    + DisabilityId : int <<get>> <<set>>
+    + DisabilityName : string <<get>> <<set>>
+    + DisabilityDescription : string <<get>> <<set>>
+}
+@enduml

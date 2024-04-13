@@ -1,0 +1,8 @@
+{
+  "first_name": "Voornaam",
+  "first_name_required": "Voornaam is verplicht",
+  "last_name": "Achternaam",
+  "last_name_required": "Achternaam is verplicht",
+  "birth_year": "Geboortejaar",
+  "birth_year_required": "Geboortejaar is verplicht"
+}

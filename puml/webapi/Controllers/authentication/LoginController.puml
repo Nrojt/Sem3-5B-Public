@@ -1,0 +1,7 @@
+@startuml
+class LoginController {
+    + LoginController(userResolveService:UserResolveService, authTokenService:AuthTokenService)
+    + <<async>> Login(loginModel:LoginModel) : Task<IActionResult>
+}
+ControllerBase <|-- LoginController
+@enduml

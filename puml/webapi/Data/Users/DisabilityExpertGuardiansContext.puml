@@ -1,0 +1,12 @@
+@startuml
+class DisabilityExpertGuardiansContext {
+    + DisabilityExpertGuardiansContext(options:DbContextOptions<DisabilityExpertGuardiansContext>)
+}
+class "DbSet`1"<T> {
+}
+IdentityBaseContext <|-- DisabilityExpertGuardiansContext
+DisabilityExpertGuardiansContext o-> "DisabilityExperts<DisabilityExpert>" "DbSet`1"
+DisabilityExpertGuardiansContext o-> "Disabilities<Disability>" "DbSet`1"
+DisabilityExpertGuardiansContext o-> "Guardians<Guardian>" "DbSet`1"
+DisabilityExpertGuardiansContext --> "RefreshTokens<RefreshToken>" "DbSet`1"
+@enduml

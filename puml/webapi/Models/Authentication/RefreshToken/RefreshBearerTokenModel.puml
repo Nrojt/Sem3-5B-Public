@@ -1,0 +1,6 @@
+@startuml
+class RefreshBearerTokenModel {
+    + RefreshTokenString : string <<get>> <<set>>
+}
+RefreshBearerTokenModel --> "UserType" UserTypes
+@enduml

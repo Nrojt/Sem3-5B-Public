@@ -1,0 +1,2 @@
+- Om de html bestanden die bootstrap studio genereert om te zetten in jsx: https://transform.tools/html-to-jsx
+- Sommige bootstrap components kan je beter omzetten in react-bootstrap: https://react-bootstrap.netlify.app/

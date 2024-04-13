@@ -1,0 +1,10 @@
+{
+  "first_name": "Voornaam: ",
+  "last_name": "Achternaam: ",
+  "Geboortejaar": "Geboortejaar: ",
+  "Email": "Email: ",
+  "Adres": "Adres: ",
+  "Beperking": "Beperking(en): ",
+  "Benadering": "Voorkeur benadering: ",
+  "guardian": "Voogd/Begeleider: "
+}

@@ -1,0 +1,18 @@
+{
+  "home": "Start",
+  "about_us": "Over ons",
+  "account": "Account",
+  "login": "Inloggen",
+  "logout": "Uitloggen",
+  "register": "Registreren",
+  "language": "Taal",
+  "profile": "Profiel",
+  "allResearches": "Onderzoeken",
+  "addResearch": "Onderzoek toevoegen",
+  "chat": "Chat",
+  "settings": "Instellingen",
+  "account_settings": "Account instellingen",
+  "accessibility_settings": "Toegankelijkheids instellingen",
+  "privacy_settings": "Privacy instellingen",
+  "manage": "Beheren"
+}

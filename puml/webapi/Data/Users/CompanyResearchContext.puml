@@ -1,0 +1,10 @@
+@startuml
+class CompanyResearchContext {
+    + CompanyResearchContext(options:DbContextOptions<CompanyResearchContext>)
+}
+class "DbSet`1"<T> {
+}
+IdentityBaseContext <|-- CompanyResearchContext
+CompanyResearchContext o-> "Companies<Company>" "DbSet`1"
+CompanyResearchContext --> "RefreshTokens<RefreshToken>" "DbSet`1"
+@enduml

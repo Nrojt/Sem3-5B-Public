@@ -1,0 +1,93 @@
+.privacyPage {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy-policy-content {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.privacy-column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px; /* Adjust the value for the desired roundness */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the values for the desired shadow */
+}
+
+.contactgegevens {
+  margin-left: 4%;
+}
+
+.pp-title {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #000000, #008080);
+  line-height: 1.5;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.inleidingPrivacy {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: black;
+}
+
+.pp-kop {
+  background-image: linear-gradient(to left, #000000, #008080);
+  line-height: 1.5;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 20px;
+  margin-left: 3%;
+}
+
+.pp-kop3 {
+  background-image: linear-gradient(to left, #000000, #008080);
+  line-height: 1.5;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 10px;
+  margin-left: 3%;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .privacy-policy-content {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 85%;
+    background-color: white;
+  }
+}
+
+.pp-link {
+  color: black;
+}
+
+.pp-link:hover {
+  color: blue;
+}
+
+.pp-card-content {
+  margin-bottom: 1rem;
+  color: #000;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
+}

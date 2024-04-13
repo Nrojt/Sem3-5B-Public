@@ -1,0 +1,8 @@
+@startuml
+class DisabilityExpert {
+    + Guardian : Guardian? <<get>> <<set>>
+    + Disabilities : List<Disability>? <<get>> <<set>>
+}
+HumanBase <|-- DisabilityExpert
+DisabilityExpert --> "UserType" UserTypes
+@enduml

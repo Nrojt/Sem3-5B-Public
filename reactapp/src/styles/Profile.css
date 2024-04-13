@@ -1,0 +1,29 @@
+﻿.profile-card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profile-btn {
+  float: right;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.profile-Card-Text {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.profile_title {
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #000000, #008080);
+  line-height: 1.5;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

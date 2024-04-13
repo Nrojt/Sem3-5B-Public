@@ -1,0 +1,7 @@
+@startuml
+class CompanyRegistrationController {
+    + CompanyRegistrationController(companyManager:UserManager<Company>, userResolveService:UserResolveService)
+    + <<async>> RegisterCompany(companyRegistrationModel:CompanyRegistrationModel) : Task<IActionResult>
+}
+ControllerBase <|-- CompanyRegistrationController
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+abstract class IdentityBaseContext {
+}
+class "IdentityDbContext`1"<T> {
+}
+class "DbSet`1"<T> {
+}
+"IdentityDbContext`1" "<UserBase>" <|-- IdentityBaseContext
+IdentityBaseContext o-> "RefreshTokens<RefreshToken>" "DbSet`1"
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class UserResolveService {
+    + UserResolveService(managers:Dictionary<UserTypes, IUserManagerWrapper>, iidbContextFactory:IIdbContextFactory)
+    + <<async>> GetUserByEmailAsync(userType:UserTypes, email:string) : Task<UserBase?>
+    + <<async>> CheckPasswordAsync(user:UserBase, password:string) : Task<bool>
+    + <<async>> UpdateAsync(user:UserBase?) : Task
+    + <<async>> IsEmailInUseAsync(email:string) : Task<bool>
+    + <<async>> GetUserByRefreshTokenAsync(refreshToken:string, userType:UserTypes) : Task<UserBase?>
+}
+@enduml

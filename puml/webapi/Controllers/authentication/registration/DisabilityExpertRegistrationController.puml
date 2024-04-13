@@ -1,0 +1,7 @@
+@startuml
+class DisabilityExpertRegistrationController {
+    + DisabilityExpertRegistrationController(disabilityExpertManager:UserManager<DisabilityExpert>, userResolveService:UserResolveService)
+    + <<async>> RegisterDisabilityExpert(disabilityExpertRegistrationModel:DisabilityExpertRegistrationModel) : Task<IActionResult>
+}
+ControllerBase <|-- DisabilityExpertRegistrationController
+@enduml

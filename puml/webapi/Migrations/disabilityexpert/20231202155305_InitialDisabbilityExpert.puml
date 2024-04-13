@@ -1,0 +1,5 @@
+@startuml
+class InitialDisabbilityExpert <<partial>> {
+}
+Migration <|-- InitialDisabbilityExpert
+@enduml

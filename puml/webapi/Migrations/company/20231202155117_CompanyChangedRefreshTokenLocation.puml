@@ -1,0 +1,5 @@
+@startuml
+class CompanyChangedRefreshTokenLocation <<partial>> {
+}
+Migration <|-- CompanyChangedRefreshTokenLocation
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class DisabilityExpertRegistrationModel {
+    + FirstName : string <<get>> <<set>>
+    + LastName : string <<get>> <<set>>
+    + BirthYear : int <<get>> <<set>>
+    + PostalCode : string <<get>> <<set>>
+    + PhoneNumber : string <<get>> <<set>>
+}
+RegisterModelBase <|-- DisabilityExpertRegistrationModel
+@enduml

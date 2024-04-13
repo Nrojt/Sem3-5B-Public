@@ -1,0 +1,7 @@
+@startuml
+class IdbContextFactory {
+    + IdbContextFactory(serviceProvider:IServiceProvider)
+    + GetContext(userType:UserTypes?) : IdentityBaseContext?
+}
+IIdbContextFactory <|-- IdbContextFactory
+@enduml

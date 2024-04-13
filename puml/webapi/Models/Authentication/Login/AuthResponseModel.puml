@@ -1,0 +1,8 @@
+@startuml
+class AuthResponseModel {
+    + TokenType : string <<get>> <<set>> = "Bearer"
+    + TokenString : string <<get>> <<set>>
+    + RefreshToken : string <<get>> <<set>>
+}
+AuthResponseModel --> "RefreshTokenExpiration" DateTime
+@enduml

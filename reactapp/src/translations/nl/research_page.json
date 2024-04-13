@@ -1,0 +1,15 @@
+{
+  "information": "Informatie",
+  "goal": "Doel",
+  "apply": "Schrijf in",
+  "by_company": "Onderzoek door: ",
+  "date": "Datum: ",
+  "location": "Locatie: ",
+  "reward": "Beloning: ",
+  "type": "Onderzoeksvorm: ",
+  "loading": "Laden...",
+  "confirmation": "Bevestiging",
+  "close": "Sluiten",
+  "succesMessage": "U bent succesvol ingeschreven voor dit onderzoek!",
+  "errorMessage": "U bent al ingeschreven voor dit onderzoek!"
+}

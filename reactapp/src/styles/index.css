@@ -1,0 +1,30 @@
+:root,
+[data-bs-theme="light"] {
+  --bs-body-color: #000000;
+  --bs-body-color-rgb: 0, 0, 0;
+  --bs-secondary-color: rgba(0, 0, 0, 0.75);
+  --bs-secondary-color-rgb: 0, 0, 0, 0.75;
+  --bs-tertiary-color: rgba(0, 0, 0, 0.5);
+  --bs-tertiary-color-rgb: 0, 0, 0, 0.5;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #d9ebf7;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 1 0 auto;
+  padding-bottom: 60px;
+  position: relative;
+}

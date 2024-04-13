@@ -1,0 +1,8 @@
+@startuml
+class UserBase {
+    + UserId : int <<get>> <<set>>
+    + RefreshToken : RefreshToken? <<get>> <<set>>
+}
+IdentityUser <|-- UserBase
+UserBase --> "UserType" UserTypes
+@enduml

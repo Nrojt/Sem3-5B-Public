@@ -1,0 +1,12 @@
+{
+  "title_heading": "Inloggen",
+  "login_google": "Log in met Google",
+  "or": "of",
+  "remember_me": "Onthoud mij",
+  "forgot_password": "Wachtwoord vergeten?",
+  "password": "Wachtwoord",
+  "email": "E-mail",
+  "login_failed": "Inloggen mislukt. Uw Wachtwoord of E-mail is onjuist.",
+  "loading": "Bezig...",
+  "redirecting": "Doorverwijzen naar de home pagina..."
+}

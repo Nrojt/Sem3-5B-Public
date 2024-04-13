@@ -1,0 +1,10 @@
+{
+  "title_heading": "Vul uw gegevens in",
+  "create_account": "Account aanmaken",
+  "postalcode": "Postcode",
+  "postalcode_placeholder": "1234AB",
+  "phone_number": "Telefoonnummer",
+  "phone_number_placeholder": "0612345678",
+  "loading": "Bezig...",
+  "account_creation_error": "Er is een fout opgetreden bij het aanmaken van uw account. Probeer het later opnieuw."
+}

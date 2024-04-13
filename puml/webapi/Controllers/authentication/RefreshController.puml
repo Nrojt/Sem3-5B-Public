@@ -1,0 +1,8 @@
+@startuml
+class RefreshController {
+    + RefreshController(userResolveService:UserResolveService, authTokenService:AuthTokenService)
+    + <<async>> RefreshBearerToken(refreshBearerTokenModel:RefreshBearerTokenModel) : Task<IActionResult>
+    + <<async>> NewRefreshToken() : Task<IActionResult>
+}
+ControllerBase <|-- RefreshController
+@enduml

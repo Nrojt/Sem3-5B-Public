@@ -1,0 +1,6 @@
+@startuml
+class HomeController {
+    + Get() : IActionResult
+}
+ControllerBase <|-- HomeController
+@enduml

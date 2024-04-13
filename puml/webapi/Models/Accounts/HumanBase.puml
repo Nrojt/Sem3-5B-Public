@@ -1,0 +1,11 @@
+@startuml
+class HumanBase {
+    + FirstName : string <<get>> <<set>>
+    + LastName : string <<get>> <<set>>
+    + PostalCode : string <<get>> <<set>>
+    + <<override>> PhoneNumber : string? <<get>> <<set>>
+    + BirthYear : int <<get>> <<set>>
+}
+UserBase <|-- HumanBase
+HumanBase --> "UserType" UserTypes
+@enduml

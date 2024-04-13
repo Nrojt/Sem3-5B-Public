@@ -1,0 +1,5 @@
+@startuml
+class InitialCompany <<partial>> {
+}
+Migration <|-- InitialCompany
+@enduml

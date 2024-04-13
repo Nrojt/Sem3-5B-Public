@@ -1,0 +1,6 @@
+@startuml
+class NewRefreshTokenModel {
+    + OldRefreshToken : string <<get>> <<set>>
+}
+NewRefreshTokenModel --> "UserType" UserTypes
+@enduml

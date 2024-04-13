@@ -1,0 +1,12 @@
+{
+  "title_heading": "Log in",
+  "login_google": "Login with Google",
+  "or": "or",
+  "remember_me": "Remember me",
+  "forgot_password": "Forgot password?",
+  "password": "Password",
+  "email": "Email",
+  "login_failed": "Please try again. Your password and/or email may be incorrect.",
+  "loading": "Loading...",
+  "redirecting": "Redirecting to home page..."
+}

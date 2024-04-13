@@ -1,0 +1,54 @@
+﻿.allResearch {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.research-inhoud {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.onderzoeken-titel {
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #000000, #008080);
+  line-height: 1.5;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  border-bottom: 2px solid;
+  border-color: #cbcbcb;
+}
+
+.research_item {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+.research_item_title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #008080;
+}
+
+.research_item_description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.leesMeerKnop {
+  background: #008080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}

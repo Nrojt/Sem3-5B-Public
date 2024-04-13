@@ -1,0 +1,14 @@
+{
+  "company_name": "Bedrijfsnaam",
+  "company_name_required": "Bedrijfsnaam is verplicht",
+  "company_description": "Bedrijfs omschrijving",
+  "company_description_required": "Bedrijfs omschrijving is verplicht",
+  "company_address": "Bedrijfs adres",
+  "company_address_required": "Bedrijfs adres is verplicht",
+  "company_city": "Plaats van inschrijving",
+  "company_city_required": "Plaats van inschrijving is verplicht",
+  "company_country": "Land van inschrijving",
+  "company_country_required": "Land van inschrijving is verplicht",
+  "company_website": "Uw website",
+  "company_website_required": "Uw Website is verplicht"
+}

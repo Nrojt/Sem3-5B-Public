@@ -1,0 +1,14 @@
+{
+  "company_name": "Company name",
+  "company_name_required": "Company name is required",
+  "company_description": "Company description",
+  "company_description_required": "Company description is required",
+  "company_address": "Company address",
+  "company_address_required": "Company address is required",
+  "company_city": "Company city",
+  "company_city_required": "Company city is required",
+  "company_country": "Company country",
+  "company_country_required": "Company country is required",
+  "company_website": "Company website",
+  "company_website_required": "Company website is required"
+}

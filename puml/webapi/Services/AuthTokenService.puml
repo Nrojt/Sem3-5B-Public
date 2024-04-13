@@ -1,0 +1,10 @@
+@startuml
+class AuthTokenService {
+    + AuthTokenService(configuration:IConfiguration, iidbContextFactory:IIdbContextFactory)
+    + GenerateJwtToken(claims:List<Claim>) : string
+    + <<async>> GenerateNewRefreshToken(oldRefreshToken:RefreshToken?, userType:UserTypes?) : Task<RefreshToken?>
+    + <<async>> RemoveRefreshToken(refreshToken:RefreshToken, userType:UserTypes) : Task
+    + <<async>> GetRefreshTokenFromUser(email:string, userType:UserTypes) : Task<RefreshToken?>
+    + <<async>> GetRefreshTokenFromString(refreshTokenString:string, userTypes:UserTypes) : Task<RefreshToken?>
+}
+@enduml

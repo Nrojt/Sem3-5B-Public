@@ -1,0 +1,7 @@
+@startuml
+class LogoutController {
+    + LogoutController(userResolveService:UserResolveService, authTokenService:AuthTokenService)
+    + <<async>> Logout() : Task<IActionResult>
+}
+ControllerBase <|-- LogoutController
+@enduml

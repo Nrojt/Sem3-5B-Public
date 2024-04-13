@@ -1,0 +1,13 @@
+@startuml
+class CompanyRegistrationModel {
+    + CompanyName : string <<get>> <<set>>
+    + CompanyDescription : string <<get>> <<set>>
+    + CompanyAddress : string <<get>> <<set>>
+    + CompanyCity : string <<get>> <<set>>
+    + CompanyCountry : string <<get>> <<set>>
+    + CompanyPostalCode : string <<get>> <<set>>
+    + CompanyPhoneNumber : string <<get>> <<set>>
+    + CompanyWebsite : string <<get>> <<set>>
+}
+RegisterModelBase <|-- CompanyRegistrationModel
+@enduml

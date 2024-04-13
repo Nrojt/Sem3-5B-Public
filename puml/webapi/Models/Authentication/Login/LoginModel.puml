@@ -1,0 +1,7 @@
+@startuml
+class LoginModel {
+    + Email : string <<get>> <<set>>
+    + Password : string <<get>> <<set>>
+}
+LoginModel --> "UserType" UserTypes
+@enduml

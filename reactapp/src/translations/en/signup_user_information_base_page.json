@@ -1,0 +1,10 @@
+{
+  "title_heading": "Enter your details",
+  "create_account": "Make account",
+  "postalcode": "Zipcode",
+  "postalcode_placeholder": "1234AB",
+  "phone_number": "Phone number",
+  "phone_number_placeholder": "0612345678",
+  "loading": "Loading...",
+  "account_creation_error": "An error occurred while creating your account. Please try again later."
+}

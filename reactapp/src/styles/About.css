@@ -1,0 +1,32 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.main-about {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 85%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #000000, #008080);
+  line-height: 1.5;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.about-kop {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 15px;
+  background-image: linear-gradient(to left, #000000, #008080);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
