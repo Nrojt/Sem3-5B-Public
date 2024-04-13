@@ -2,7 +2,10 @@
 Stichting Accessibility
 
 Made by:
-- @Raoul-N 
-- @NoahSt0lk
-- @Nrojt
+@Raoul-N 
+@NoahSt0lk
+@Nrojt
+
+With help from:
+@Michielo1
 
